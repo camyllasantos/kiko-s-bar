@@ -6,14 +6,15 @@ body{
     background-color: #675D50;
 }
 
-.nav .nav-link.active {
+#cabecalho .nav .nav-link.active {
     background-color: #fff;
     color: #675D50;
 }
 
-.nav .nav-link,
+#cabecalho .nav .nav-link,
 .navbar-brand,
-.navbar-brand:hover {
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
     color: #fff;
 }
 
@@ -27,10 +28,19 @@ body{
 }
 
 
-#sobre-o-restaurante {
+#sobre-o-restaurante, #cardapio {
     background-color: #F3DEBA;
 }
 
 .text-colored {
     color: #675D50;
+}
+
+.nav-cardapio .nav-link.active {
+    background-color: #675D50;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color:#675D50 ;
 }
